@@ -1,0 +1,349 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.content{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+
+.content .logo{
+  width: 300px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+
+}
+.content .logo img{
+    width: 80px;
+    height: 80px;
+    left: 50px;
+    top: 50px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 20px;
+  
+}
+
+.content .logo span{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;    
+
+}
+
+.menu ul{ 
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+    
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 25px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+
+}
+
+.menu ul li:hover{
+    text-decoration: underline;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+    padding: 8px;
+
+}
+
+.menu ul a:hover{ 
+    background: #b7b7bb;
+    border-radius: 30px;
+    
+}
+
+
+main{
+    margin-top: 100px;
+}
+
+.firstMain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+
+.firstMain .txt{
+    width: 400px;
+    height: 800px;  
+    margin-right: 100px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  
+
+
+}
+
+.firstMain .txt h2{
+    font-size: 40pt;
+    margin: 20px  0px ;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+}
+
+.firstMain .txt p{
+    font-size: 20px;
+    font-family: "Platypi", serif;
+}
+
+
+
+.firstMain img{
+    width: 500px;
+    height: 650px;
+    border: 7px solid darkblue ;
+    
+    
+}    
+
+.firstMain .txt .a{
+    margin-top: 30px;
+}
+
+.firstMain .txt a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+.firstMain .txt a:hover{
+    background: #b7b7bb;
+    border-radius: 30px;
+    
+}
+
+.firstMain .txt a:focus{
+    outline: 0;
+}
+
+section{
+    display: flex;
+    justify-content: center ;
+    
+}
+
+.lap1{
+padding: 14px 14px 24px 14px;
+position: relative;
+background: linear-gradient(314deg, #212529 70%, #484e53 100%);
+border-radius: 25px 25px 0 0
+}
+
+section img{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    bottom: 0;
+    top: 0;
+    
+
+}
+
+.lap2{
+    left: -50px;
+    right: -50px;
+    bottom: -22px;
+    height: 22px;
+    position: absolute;
+    background: linear-gradient(0deg, #212529 0%, #484e53 100%);
+    border-radius: 2px 2px 10px 10px;
+}
+
+
+ .txt{
+    width: 500px;
+   
+}
+
+section .txt h2{
+    font-size: 25pt;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+}
+section .txt i{
+    display: flex;
+    width: 100%;
+    
+    
+
+}
+section .txt h3{
+    margin-left: 25px;
+    font-size: 13pt;
+    font-family: "Platypi", serif;
+ 
+}
+
+section .txt span{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 20px;
+    
+}
+
+section .txt p{
+    font-size: 15px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    padding: 25px;
+}
+
+.gg-shopping-cart {
+   top: 10px;
+}
+
+.two{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+   
+}
+
+.two .head{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+   
+}
+
+.idk{
+    margin-top: 300px;
+    width: 100%;
+    display: flex;
+    
+}
+
+
+.two .skils{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+
+.two .skils h3{
+    font-size: 21px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+}
+
+.two p{
+    font-size: 15px;
+    width: 400px;
+    padding: 0px 20px; 
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 200;   
+}
+
+.two span{
+    color: #212529;
+    font-size: 18px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    width: 700px;
+    margin-top: 20px;
+   
+    
+}
+
+
+.idk {
+    font-size: 28pt;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+
+}
+
+
+
+section .last{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 69px;
+
+}
+
+.last .left{
+    width: 300px;
+    position: relative;
+    padding-right: 70px;
+}
+
+.last .left h2{
+    font-size: 28pt;
+    font-family: "Exo 2", sans-serif;
+    font-weight: bold;   
+}
+
+.last .left p{
+    padding: 20px 0;
+    font-size: 15px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+}
+
+
+.last .right {
+    width: 600px;
+    position: relative;
+}
+
+.last .right h3{
+    font-size: 17px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: bold; 
+
+}
+
+.last .right p{
+    padding: 15px 0;
+    font-size: 15px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+}
+
+
+
